@@ -1,6 +1,10 @@
+import styles from './Footer.module.css'
+
 function Footer(props) {
     return (
-        <p>Footer</p>
+        <footer className={styles.Footer}> 
+            <h4>Copyright &copy; All Rights Reserved {new Date().getFullYear} Blog</h4>
+        </footer>
     );
 }
 
